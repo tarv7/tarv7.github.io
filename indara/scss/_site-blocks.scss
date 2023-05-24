@@ -22,11 +22,11 @@
 	&.inner-page-cover {
 		&, .row {
 			min-height: 600px;
-			height: calc(30vh);		
+			height: calc(30vh);
 		}
 	}
 	.sub-text {
-		font-size: $font-size-base + .1rem;	
+		font-size: $font-size-base + .1rem;
 		text-transform: uppercase;
 		color: rgba($white, .7);
 		letter-spacing: .2em;
@@ -37,7 +37,7 @@
 		font-size: 4rem;
 		font-weight: normal;
 		letter-spacing: .1em;
-		text-transform: uppercase;	
+		text-transform: uppercase;
 	}
 	p {
 		color: $white;
@@ -105,7 +105,7 @@ p.dropcap:first-child:first-letter {
 		content: "";
 		position: absolute;
 		top: 0;
-		
+
 	}
 	&:after {
 		content: "";
@@ -196,13 +196,13 @@ p.dropcap:first-child:first-letter {
 				text-transform: uppercase;
 			}
 			p {
-				
+
 
 			}
-			
+
 		}
 		&:hover {
-			
+
 			&:before {
 				background: rgba(#293462, .7);
 			}
@@ -210,13 +210,13 @@ p.dropcap:first-child:first-letter {
 			h2, p {
 				color: $white;
 			}
-			
-			
+
+
 		}
 		.more {
 			color: $white;
 		}
-	}	
+	}
 
 	.wrap-icon {
 		margin-bottom: 30px;
@@ -268,8 +268,8 @@ p.dropcap:first-child:first-letter {
 			font-size: 4rem;
 			color: $orange;
 			line-height: 0;
-		} 
-	}	
+		}
+	}
 	.service-2-contents {
 		h3 {
 			font-size: 20px;
@@ -324,7 +324,7 @@ p.dropcap:first-child:first-letter {
 	.feature-1-contents {
 		.number, .caption {
 			display: block;
-		}	
+		}
 		.number {
 			font-size: 3rem;
 			line-height: 1;
@@ -347,7 +347,7 @@ p.dropcap:first-child:first-letter {
 		background: $primary;
 		color: $white;
 		h2 {
-			font-size: 1.5rem; 
+			font-size: 1.5rem;
 			margin: 0;
 			padding: 0;
 		}
@@ -379,7 +379,7 @@ p.dropcap:first-child:first-letter {
 
 .section-5 {
 	background: #293462;
-	color: $white;	
+	color: $white;
 }
 
 .form-request {
@@ -486,4 +486,13 @@ p.dropcap:first-child:first-letter {
 			}
 		}
 	}
+}
+
+.logo-name {
+  display: flex;
+  align-items: center;
+
+  img {
+    width: 64px;
+  }
 }
