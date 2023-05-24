@@ -712,8 +712,7 @@ p.dropcap:first-child:first-letter {
     flex: 0 0 50px; }
     .service-2 .service-2-icon span {
       font-size: 4rem;
-      color: #fd7e14;
-      line-height: 0; }
+      color: #fd7e14; }
   .service-2 .service-2-contents h3 {
     font-size: 20px; }
 
