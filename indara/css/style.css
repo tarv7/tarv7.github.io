@@ -877,3 +877,12 @@ p.dropcap:first-child:first-letter {
       border: 1px solid white; }
       .block-16 .play-button:hover > span {
         color: #fff; }
+
+.logo-name {
+  display: flex;
+  align-items: center;
+}
+
+.logo-name img {
+  width: 64px;
+}
