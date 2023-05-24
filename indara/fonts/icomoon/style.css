@@ -1,18 +1,19 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?10si43');
-  src:  url('fonts/icomoon.eot?10si43#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?10si43') format('truetype'),
-    url('fonts/icomoon.woff?10si43') format('woff'),
-    url('fonts/icomoon.svg?10si43#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?ptl51s');
+  src:  url('fonts/icomoon.eot?ptl51s#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?ptl51s') format('truetype'),
+    url('fonts/icomoon.woff?ptl51s') format('woff'),
+    url('fonts/icomoon.svg?ptl51s#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
+  font-display: block;
 }
 
 [class^="icon-"], [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'icomoon' !important;
-  speak: none;
+  speak: never;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -24,6 +25,33 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-balance:before {
+  content: "\e907";
+}
+.icon-consumer_law:before {
+  content: "\e910";
+}
+.icon-contract:before {
+  content: "\e92c";
+}
+.icon-family_law:before {
+  content: "\e92d";
+}
+.icon-farming_fishing:before {
+  content: "\e92e";
+}
+.icon-heritage:before {
+  content: "\e92f";
+}
+.icon-pension_law:before {
+  content: "\e930";
+}
+.icon-privacy:before {
+  content: "\e931";
+}
+.icon-property:before {
+  content: "\e932";
+}
 .icon-asterisk:before {
   content: "\f069";
 }
@@ -4913,7 +4941,4 @@
 }
 .icon-zoom_out:before {
   content: "\e901";
-}
-.icon-zoom_out_map:before {
-  content: "\e56b";
 }
